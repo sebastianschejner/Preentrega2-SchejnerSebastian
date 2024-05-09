@@ -19,30 +19,44 @@
 </head>
 <body>
     <header>
-        <!--TITULO-->
-         <!--LOGO 1-->
-        <div class="contenedor-logo">
+      
             
-                <a class="link-logo" href="index.html"><img class="img-logo" src="imagenes/3.png" alt="logo nora faiman"></a>  
-        </div>
-        <!--LOGO 2-->
-        <div>
-            <a class="link-logo" href="index.html"><img class="img-logo2" src="imagenes/2.png" alt="onda sonora"></a>  
-        </div>
-
-
-        <!--MENU-->
-
-          <nav class="contenedor-menu">
-            <ul class="menu">
-                <li class="quiensoy"><a class="linkmenu" href="#quiensoy">Quien Soy</a> </li>
-                <li class="cursos"><a class="linkmenu" href="#cursos">Cursos</a> </li>
-                <li class="milibro"><a class="linkmenu" href="#milibro">Mi Libro</a> </li>
-                <li class="audiolibro"><a class="linkmenu" href="#audiolibro">Audiolibro</a> </li>
-                <li class="contacto"><a class="linkmenu" href="#contacto">Contacto</a> </li> 
-            </ul>
-        </nav>     
-        
+        <nav class="navbar fixed-top "></nav>
+          <div class="container-fluid d-flex justify-content-around bg-black h-1 ">
+            <a class="link-logo h-1 p-0 l-0" href="index.html"><img class="img-logo2 w-75" src="imagenes/2.png" alt="onda sonora"></a> 
+            <a class="link-logo h-1 p-0" href="index.html"><img class="img-logo w-75" src="imagenes/3.png" alt="logo nora faiman"></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nora Faiman</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#quiensoy">Quien Soy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#cursos">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#milibro">Mi Libro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#audiolibro">Audiolibro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </nav>
         </header>
        
         
