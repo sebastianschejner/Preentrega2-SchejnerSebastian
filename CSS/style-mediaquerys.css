@@ -180,6 +180,17 @@
 
 /*LINKS*/
 
+/*HEADER LINKS*/
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    height: 80px;
+   
+}    
+
+
 /*LINK MI LIBRO*/
 
 
@@ -256,6 +267,7 @@ margin: auto;
     
     
 }
+
 
 
 } 

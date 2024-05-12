@@ -217,4 +217,10 @@ body{
     position: fixed;
     bottom: 20px;
     right: 20px;
+    width: 20px;
+}
+
+#contacto a{
+
+    width: 20px;
 }

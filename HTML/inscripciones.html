@@ -5,56 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Sebastian Schejner">
     <meta name="keywords" content="nora faiman, canto, cursos, musica">
+    <!--CSS-->
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/style-links.css">
+    <link rel="stylesheet" href="../CSS/style-mediaquerys.css">
+     <!--BOOSTRAP-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Inscripciones</title>
 
-    <body>
-        <header>
-             <!--TITULO-->
-         <!--LOGO 1-->
+<body>
+    <header>
+             
+    <!--LOGO 1-->
         <div class="contenedor-logo">
             
             <a class="link-logo" href="../index.html"><img class="img-logo" src="../imagenes/3.png" alt="logo nora faiman"></a>  
-    </div>
+        </div>
     <!--LOGO 2-->
-    <div>
-        <a class="link-logo" href="../index.html"><img class="img-logo2" src="../imagenes/2.png" alt="onda sonora"></a>  
-    </div>
+         <div>
+            <a class="link-logo" href="../index.html"><img class="img-logo2" src="../imagenes/2.png" alt="onda sonora"></a>  
+        </div>
+    </header>
 
-
-        </header>
-        <a href="../index.html"><img class="img-volver-libro" src="../imagenes/icono-atras.png" alt="regresar a pagina anterior"></a>
+        <a href="javascript: history.go(-1)"><img class="img-volver-libro" src="../imagenes/icono-atras.png" alt="regresar a pagina anterior"></a>
+        <h2 class="titulo-inscripciones"><strong>INSCRIPCIONES</strong></h2>
+    
         <main>
-            <nav>
-                <a href="javascript: history.go(-1)">Volver</a>
-            </nav>
-            
 
-        <section>
-         
-            <form action="form.php" method="post">
-                <label for="">Nombre y Apellido</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Juan Perez">
-                <label for="">Email</label>
-                <input type="text" name="email" id="email" placeholder="Juanperez@gmail.com">
+              <form class="row g-3 ms-1 me-1 mt-5">
+                <div class="col-md-6">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="validationDefault01" class="form-label"><strong>Nombre</strong></label>
+                      <input type="text" class="form-control" id="validationDefault01" value="" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationDefault02" class="form-label"><strong>Apellido</strong></label>
+                      <input type="text" class="form-control" id="validationDefault02" value="" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="validationDefaultUsername" class="form-label"><strong>E-Mail</strong></label>
+                      <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationDefault04" class="form-label"><strong>Cursos</strong></label>
+                      <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">-Seleccione su Curso-</option>
+                        <option>Curso de Formación Docente</option>
+                        <option>Curso de Formación para Actores</option>
+                        <option>Curso de Formación para Cantantes</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                    <button class="boton-inscripciones btn btn-primary" type="submit">ENVIAR</button>
+                </div>
+              </form>
+              
 
-                <select name="" id="">
-                    <option value="">-Seleccione su curso-</option>
-                    <option value="">
-                        Curso de formacion docente
-                    </option>
-                    <option value="">
-                        Curso de formacion para cantantes
-                    </option>
-                    <option value="">
-                        Curso de formacion para actores
-                    </option>
-                </select>
 
-                <input type="submit" value="ENVIAR">
+          
 
-            </form>
-        </section>
+        
+
+        
+       <!--BOOSTRAP-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         </main>
     </body>
