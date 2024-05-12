@@ -213,14 +213,18 @@ body{
 }
 
 /*CONTACTO*/
+
 #contacto{
+    
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    width: 20px;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 #contacto a{
 
-    width: 20px;
+    width: 100%;
 }
