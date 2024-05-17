@@ -12,12 +12,18 @@
 @import "./layout/contacto";
 
 //MEDIAQUERIES
+//layout-mq
 @import "./media-queries/mobile/layout-mq/audiolibro-mq";
 @import "./media-queries/mobile/layout-mq/cursosmq";
 @import "./media-queries/mobile/layout-mq/quien-soy";
 @import "./media-queries/mobile/layout-mq/contacto-mq.scss";
 @import "./media-queries/mobile/layout-mq/mi-libro-mq.scss";
 @import "./media-queries/mobile/layout-mq/nav-bar.scss";
+//links-mq
+@import "./media-queries/mobile/links-mq/header-links-mq.scss";
+@import "./media-queries/mobile/links-mq/link-libro-mq.scss";
+@import "./media-queries/mobile/links-mq/inscripciones-links-mq.scss";
+
 
 //LINKS
 
