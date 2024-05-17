@@ -1,0 +1,26 @@
+@media only screen and (min-width: 320px) and (max-width:480px)  {
+
+    /*NAVBAR*/
+header{
+    nav{
+        div{
+            flex-direction: column;
+            button{
+                margin:auto ;
+            }
+            a{
+                text-align: center; 
+                .img-margen{
+                    margin-right: 90px;
+
+                }
+            }
+            .menu-desplegable{
+                height: 40%;
+               
+             
+            }
+        } 
+    } 
+} 
+} 

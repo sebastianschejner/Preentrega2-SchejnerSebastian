@@ -1,0 +1,27 @@
+//BASE
+@import "./base/reset";
+@import "./base/fuentes";
+@import "./base/body";
+
+//LAYOUT
+@import "./layout/header";
+@import "./layout/quiensoy";
+@import "./layout/cursos";
+@import "./layout/mi-libro.scss";
+@import "./layout/audiolibro.scss";
+@import "./layout/contacto";
+
+//MEDIAQUERIES
+@import "./media-queries/mobile/layout-mq/audiolibro-mq";
+@import "./media-queries/mobile/layout-mq/cursosmq";
+@import "./media-queries/mobile/layout-mq/quien-soy";
+@import "./media-queries/mobile/layout-mq/contacto-mq.scss";
+@import "./media-queries/mobile/layout-mq/mi-libro-mq.scss";
+@import "./media-queries/mobile/layout-mq/nav-bar.scss";
+
+//LINKS
+
+@import "./links/header-links.scss";
+@import "./links/link-milibro.scss";
+@import "./links/link-inscripciones.scss";
+@import "./links/link-curso-docentes.scss";

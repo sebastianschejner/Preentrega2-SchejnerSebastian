@@ -1,0 +1,32 @@
+
+/*HEADERS LINKS*/
+
+.header-links{
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    height: 150px;
+    .contenedor-logo{
+        .img-logo{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            left: 50px;
+        }
+    }
+    .contenedor-onda{
+        .img-logo2{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            left: 50px;
+        }
+
+    }
+
+     
+}    

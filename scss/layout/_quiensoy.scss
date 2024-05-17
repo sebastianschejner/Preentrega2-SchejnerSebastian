@@ -1,0 +1,45 @@
+/*QUIEN SOY*/
+
+.quiensoy-container{
+    
+    display: grid;
+    grid-template-columns: 350px 350px ;
+    grid-template-rows: 50px 450px;
+    column-gap: 20px;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+.titulo-quiensoy{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+   
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.texto-quiensoy {
+    width: 50%;
+    height: 100%;
+   
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 350px;
+    margin-top: 0;
+    padding: 5px;
+}
+.quiensoyimg{
+    width: 350px;
+    height: 500px;
+    border-radius: 5%;
+
+    grid-column: 2/3;
+    grid-row: 1/3;
+    
+}
+
+
+    
+}
+
