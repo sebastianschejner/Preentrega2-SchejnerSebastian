@@ -1,0 +1,101 @@
+[33mcommit 46622f82582bfc65081315dfd7d8266fda0e9053[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmigracion-scss[m[33m)[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Fri May 17 19:34:19 2024 -0300
+
+    todo pasado a sass en la rama migracion, falta solucionar la media querie de link libro que no anda y la de los headers de los links que tampoco anda, todavia no lo paso a la rama master
+
+[33mcommit 14f0a9f57d92117c23a055c46972884dd671adfe[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Fri May 17 16:39:12 2024 -0300
+
+    migracion-scss, faltan medias queries de los links y estamos
+
+[33mcommit 3631e2319c2bc0910279db83ea521f47bca57d31[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sun May 12 10:52:36 2024 -0300
+
+    menu phone fixed
+
+[33mcommit 9e39b0027746bcceeee85caa09527b114752e810[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sun May 12 10:45:22 2024 -0300
+
+    informacion agregada a cursos
+
+[33mcommit d12c151026f0accc0ce63c213653c571aa7b8e84[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sun May 12 00:20:06 2024 -0300
+
+    todo responsive + contacto fixed
+
+[33mcommit 46f1f707d925f0149671558c941a4c72432bbeb1[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sun May 12 00:01:20 2024 -0300
+
+    todo responsive + algunos ajustes
+
+[33mcommit 24d455217a138e7921b2e306303c52acaf738471[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sat May 11 23:46:42 2024 -0300
+
+    todo responsive, creo
+
+[33mcommit f6a1f2a5f96c312b64c5701c3afaa1ba91a4342b[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sat May 11 22:13:51 2024 -0300
+
+    mediaquerys terminadas en pagina principal y linklibro
+
+[33mcommit 4047469ad9d8b36919f9b032efab0d0d3ca07403[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sat May 11 17:14:30 2024 -0300
+
+    media query esta vez si! mobile
+
+[33mcommit 8524da22f8de8e4a3bdc39f6213f5dee84f6c48a[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sat May 11 16:46:05 2024 -0300
+
+    medias querys principal ahora creeria que si
+
+[33mcommit 578aff5ceb5ac5fb988ab45dd9d3fa5e8999c78a[m[33m ([m[1;31morigin/mediaquerys[m[33m, [m[1;32mmediaquerys[m[33m)[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sat May 11 16:21:49 2024 -0300
+
+    media querys pantalla principal  para mobile terminadas
+
+[33mcommit eea271e874401e5b7f8e37956f1b4f6163cb5e01[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Sat May 11 11:38:07 2024 -0300
+
+    media querys en proceso, Quien soy Terminado, Cursos en proceso
+
+[33mcommit 3e7152fced26e0f3a9be6cac1ea6d334af643f5c[m[33m ([m[1;31morigin/rama1[m[33m, [m[1;32mrama1[m[33m)[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Fri May 10 16:37:56 2024 -0300
+
+    footer terminado, audiolibro en camino
+
+[33mcommit 004b80e7ec5fb8db613fb1c39ed6ba8149098477[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Fri May 10 14:25:27 2024 -0300
+
+    grid principal corregidos y menu nuevo
+
+[33mcommit 5265c769d984a663860fbac1388c62b017188cd0[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Thu May 9 23:40:01 2024 -0300
+
+    menú principal terminado
+
+[33mcommit 0baa2571b6218dd007a29fd32b667a83857afb57[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Thu May 9 18:02:59 2024 -0300
+
+    falta terminar de acomodar el menu de boostrap
+
+[33mcommit d7b31ef38582099f53b4bbc89296bcaa7e8e223d[m
+Author: Sebastian Schejner <sebastianschejner@gmail.com>
+Date:   Wed May 8 22:45:58 2024 -0300
+
+    Primer commit
