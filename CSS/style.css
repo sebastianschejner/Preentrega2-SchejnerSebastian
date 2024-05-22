@@ -377,10 +377,10 @@ header nav div .img-logo2 {
     width: 70%;
   }
   main div div div div ul {
-    width: 80%;
+    width: 90%;
   }
   main h2 {
-    font-size: large;
+    font-size: larger;
     margin: auto;
   }
 }
@@ -388,14 +388,15 @@ header nav div .img-logo2 {
   .accordion-body {
     width: 80%;
   }
-  main h2 {
+  .titulo-formaciondocente {
     font-size: 15px;
+    margin: auto;
   }
-  div h2 {
-    width: 100%;
+  main div h2 {
+    width: 90%;
     margin-left: 0px;
   }
-  div h2 button strong {
+  main div h2 button strong {
     width: 80%;
   }
 }
