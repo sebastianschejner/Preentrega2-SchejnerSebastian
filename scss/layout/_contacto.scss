@@ -9,6 +9,11 @@
     flex-direction: row;
     a{
         width: 100%;
+        
+    }
+    a:hover{
+        transform: scale(1.5)
     }
     
 }
+

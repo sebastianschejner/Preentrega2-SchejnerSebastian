@@ -3,5 +3,11 @@
 
 body{ 
 
-    background-color: #fdf5e6;
+    background: rgb(253,245,230);
+background: linear-gradient(to top, rgba(253,245,230,1) 0%, rgba(226,227,229,1) 100%);
+    
+}
+
+.bodylinksbg{
+    background-color:  rgba(226,227,229,1) ;
 }
