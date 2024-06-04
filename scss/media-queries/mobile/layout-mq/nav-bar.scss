@@ -24,3 +24,31 @@ header{
     } 
 } 
 } 
+
+
+@media only screen and (min-width: 481px) and (max-width:780px){
+
+    header{
+        nav{
+            div{
+                flex-direction: column;
+                button{
+                    margin:auto ;
+                }
+                a{
+                    text-align: center; 
+                    .img-margen{
+                        margin-right: 90px;
+    
+                    }
+                }
+                .menu-desplegable{
+                    height: 50%;
+                   
+                 
+                }
+            } 
+        } 
+    } 
+
+}
