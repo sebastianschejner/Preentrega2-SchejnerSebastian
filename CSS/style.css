@@ -263,6 +263,16 @@ header nav div .img-logo2 {
     margin-top: 20%;
   }
 }
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
+  .quiensoy-container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 50px 450px;
+    column-gap: 20px;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   /*CONTACTO*/
   #contacto {
@@ -337,6 +347,16 @@ header nav div .img-logo2 {
     margin-top: 200px;
   }
 }
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
+  .milibro-container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 50px 450px;
+    column-gap: 20px;
+    margin-left: 15%;
+    margin-top: 200px;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   /*NAVBAR*/
   header nav div {
@@ -356,6 +376,23 @@ header nav div .img-logo2 {
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 780px) {
+  header nav div {
+    flex-direction: column;
+  }
+  header nav div button {
+    margin: auto;
+  }
+  header nav div a {
+    text-align: center;
+  }
+  header nav div a .img-margen {
+    margin-right: 90px;
+  }
+  header nav div .menu-desplegable {
+    height: 50%;
+  }
+}
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
   header nav div {
     flex-direction: column;
   }

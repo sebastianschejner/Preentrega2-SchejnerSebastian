@@ -63,3 +63,21 @@
    
 
 } }
+
+@media only screen and (min-width: 781px) and (max-width:1024px){
+    
+    .quiensoy-container{
+    
+        display: grid;
+        grid-template-columns: 350px 350px ;
+        grid-template-rows: 50px 450px;
+        column-gap: 20px;
+        margin-left: 10%;
+        margin-top: 20%;
+        
+        
+   
+
+} 
+
+}
